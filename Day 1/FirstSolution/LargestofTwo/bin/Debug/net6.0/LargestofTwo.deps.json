@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LargestofTwo/1.0.0": {
+        "runtime": {
+          "LargestofTwo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LargestofTwo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

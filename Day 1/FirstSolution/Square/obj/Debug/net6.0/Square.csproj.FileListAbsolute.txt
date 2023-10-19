@@ -1,0 +1,14 @@
+E:\Hexaware\Day 1\FirstSolution\Square\bin\Debug\net6.0\Square.exe
+E:\Hexaware\Day 1\FirstSolution\Square\bin\Debug\net6.0\Square.deps.json
+E:\Hexaware\Day 1\FirstSolution\Square\bin\Debug\net6.0\Square.runtimeconfig.json
+E:\Hexaware\Day 1\FirstSolution\Square\bin\Debug\net6.0\Square.dll
+E:\Hexaware\Day 1\FirstSolution\Square\bin\Debug\net6.0\Square.pdb
+E:\Hexaware\Day 1\FirstSolution\Square\obj\Debug\net6.0\Square.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hexaware\Day 1\FirstSolution\Square\obj\Debug\net6.0\Square.AssemblyInfoInputs.cache
+E:\Hexaware\Day 1\FirstSolution\Square\obj\Debug\net6.0\Square.AssemblyInfo.cs
+E:\Hexaware\Day 1\FirstSolution\Square\obj\Debug\net6.0\Square.csproj.CoreCompileInputs.cache
+E:\Hexaware\Day 1\FirstSolution\Square\obj\Debug\net6.0\Square.dll
+E:\Hexaware\Day 1\FirstSolution\Square\obj\Debug\net6.0\refint\Square.dll
+E:\Hexaware\Day 1\FirstSolution\Square\obj\Debug\net6.0\Square.pdb
+E:\Hexaware\Day 1\FirstSolution\Square\obj\Debug\net6.0\Square.genruntimeconfig.cache
+E:\Hexaware\Day 1\FirstSolution\Square\obj\Debug\net6.0\ref\Square.dll

@@ -1,0 +1,14 @@
+E:\Hexaware\Day 1\FirstSolution\LargestofTwo\bin\Debug\net6.0\LargestofTwo.exe
+E:\Hexaware\Day 1\FirstSolution\LargestofTwo\bin\Debug\net6.0\LargestofTwo.deps.json
+E:\Hexaware\Day 1\FirstSolution\LargestofTwo\bin\Debug\net6.0\LargestofTwo.runtimeconfig.json
+E:\Hexaware\Day 1\FirstSolution\LargestofTwo\bin\Debug\net6.0\LargestofTwo.dll
+E:\Hexaware\Day 1\FirstSolution\LargestofTwo\bin\Debug\net6.0\LargestofTwo.pdb
+E:\Hexaware\Day 1\FirstSolution\LargestofTwo\obj\Debug\net6.0\LargestofTwo.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hexaware\Day 1\FirstSolution\LargestofTwo\obj\Debug\net6.0\LargestofTwo.AssemblyInfoInputs.cache
+E:\Hexaware\Day 1\FirstSolution\LargestofTwo\obj\Debug\net6.0\LargestofTwo.AssemblyInfo.cs
+E:\Hexaware\Day 1\FirstSolution\LargestofTwo\obj\Debug\net6.0\LargestofTwo.csproj.CoreCompileInputs.cache
+E:\Hexaware\Day 1\FirstSolution\LargestofTwo\obj\Debug\net6.0\LargestofTwo.dll
+E:\Hexaware\Day 1\FirstSolution\LargestofTwo\obj\Debug\net6.0\refint\LargestofTwo.dll
+E:\Hexaware\Day 1\FirstSolution\LargestofTwo\obj\Debug\net6.0\LargestofTwo.pdb
+E:\Hexaware\Day 1\FirstSolution\LargestofTwo\obj\Debug\net6.0\LargestofTwo.genruntimeconfig.cache
+E:\Hexaware\Day 1\FirstSolution\LargestofTwo\obj\Debug\net6.0\ref\LargestofTwo.dll

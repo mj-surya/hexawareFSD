@@ -1,0 +1,14 @@
+E:\Hexaware\Day 1\FirstSolution\EvenorOdd\bin\Debug\net6.0\EvenorOdd.exe
+E:\Hexaware\Day 1\FirstSolution\EvenorOdd\bin\Debug\net6.0\EvenorOdd.deps.json
+E:\Hexaware\Day 1\FirstSolution\EvenorOdd\bin\Debug\net6.0\EvenorOdd.runtimeconfig.json
+E:\Hexaware\Day 1\FirstSolution\EvenorOdd\bin\Debug\net6.0\EvenorOdd.dll
+E:\Hexaware\Day 1\FirstSolution\EvenorOdd\bin\Debug\net6.0\EvenorOdd.pdb
+E:\Hexaware\Day 1\FirstSolution\EvenorOdd\obj\Debug\net6.0\EvenorOdd.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hexaware\Day 1\FirstSolution\EvenorOdd\obj\Debug\net6.0\EvenorOdd.AssemblyInfoInputs.cache
+E:\Hexaware\Day 1\FirstSolution\EvenorOdd\obj\Debug\net6.0\EvenorOdd.AssemblyInfo.cs
+E:\Hexaware\Day 1\FirstSolution\EvenorOdd\obj\Debug\net6.0\EvenorOdd.csproj.CoreCompileInputs.cache
+E:\Hexaware\Day 1\FirstSolution\EvenorOdd\obj\Debug\net6.0\EvenorOdd.dll
+E:\Hexaware\Day 1\FirstSolution\EvenorOdd\obj\Debug\net6.0\refint\EvenorOdd.dll
+E:\Hexaware\Day 1\FirstSolution\EvenorOdd\obj\Debug\net6.0\EvenorOdd.pdb
+E:\Hexaware\Day 1\FirstSolution\EvenorOdd\obj\Debug\net6.0\EvenorOdd.genruntimeconfig.cache
+E:\Hexaware\Day 1\FirstSolution\EvenorOdd\obj\Debug\net6.0\ref\EvenorOdd.dll

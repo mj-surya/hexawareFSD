@@ -1,0 +1,120 @@
+1) Take 2 numbers from user and add them.
+namespace AddTwoNum
+{
+    internal class Program
+    {
+        static void addnum() {
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(a + b);
+        }
+        static void Main(string[] args)
+        {
+            addnum();
+        }
+    }
+}
+
+2) Take 2 numbers from user and print the biggest.
+namespace LargestofTwo
+{
+    internal class Program
+    {
+        static void largest() { 
+            int a=Convert.ToInt32(Console.ReadLine());
+            int b=Convert.ToInt32(Console.ReadLine());
+            if (a > b)
+                Console.WriteLine($"{a} is greater than {b}");
+            else Console.WriteLine($"{b} is greater than {a}");
+        
+        }
+        static void Main(string[] args)
+        {
+            largest();
+        }
+    }
+}
+
+3) Take a number from user and check if it is even.
+namespace EvenorOdd
+{
+    internal class Program
+    {
+        static void oddeven() {
+            int a = Convert.ToInt32(Console.ReadLine());
+            if (a % 2 == 0)
+                Console.WriteLine($"{a} is even.");
+            else
+                Console.WriteLine($"{a} is odd.");
+        }
+        static void Main(string[] args)
+        {
+            oddeven();
+        }
+    }
+}
+
+4) Take a number from user and find if it is prime or not.
+namespace primenumber
+{
+    internal class Program
+    {
+        static void prime() {
+            int n = Convert.ToInt32 (Console.ReadLine());   
+            int a = 0;
+            for (int i = 1; i <= n; i++)
+            {
+                if (n % i == 0)
+                {
+                    a++;
+                }
+            }
+            if (a == 2)
+                Console.WriteLine($"{n} is a prime number");
+            else
+                Console.WriteLine($"{n} is not a prime number");
+        }
+        static void Main(string[] args)
+        {
+            prime();
+        }
+    }
+}
+
+5) Take a number from user and find its square.
+namespace Square
+{
+    internal class Program
+    {
+        static void square() {
+            int a = Convert.ToInt32 (Console.ReadLine());
+            Console.WriteLine (a*a);
+        }
+        static void Main(string[] args)
+        {
+            square();
+        }
+    }
+}
+
+6) Take 10 numbers from user and find the average of them.
+namespace AverageofTen
+{
+    internal class Program
+    {
+        static void average()
+        {
+            int a = 0;
+            for(int i = 0; i < 10; i++)
+            {
+                int b= Convert.ToInt32(Console.ReadLine());
+                a+= b;
+            }
+            Console.WriteLine("Average of 10 numbers is "+a/10);
+        }
+        static void Main(string[] args)
+        {
+            average();
+        }
+    }
+}

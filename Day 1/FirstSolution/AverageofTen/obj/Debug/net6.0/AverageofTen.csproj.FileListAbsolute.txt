@@ -1,0 +1,14 @@
+E:\Hexaware\Day 1\FirstSolution\AverageofTen\bin\Debug\net6.0\AverageofTen.exe
+E:\Hexaware\Day 1\FirstSolution\AverageofTen\bin\Debug\net6.0\AverageofTen.deps.json
+E:\Hexaware\Day 1\FirstSolution\AverageofTen\bin\Debug\net6.0\AverageofTen.runtimeconfig.json
+E:\Hexaware\Day 1\FirstSolution\AverageofTen\bin\Debug\net6.0\AverageofTen.dll
+E:\Hexaware\Day 1\FirstSolution\AverageofTen\bin\Debug\net6.0\AverageofTen.pdb
+E:\Hexaware\Day 1\FirstSolution\AverageofTen\obj\Debug\net6.0\AverageofTen.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hexaware\Day 1\FirstSolution\AverageofTen\obj\Debug\net6.0\AverageofTen.AssemblyInfoInputs.cache
+E:\Hexaware\Day 1\FirstSolution\AverageofTen\obj\Debug\net6.0\AverageofTen.AssemblyInfo.cs
+E:\Hexaware\Day 1\FirstSolution\AverageofTen\obj\Debug\net6.0\AverageofTen.csproj.CoreCompileInputs.cache
+E:\Hexaware\Day 1\FirstSolution\AverageofTen\obj\Debug\net6.0\AverageofTen.dll
+E:\Hexaware\Day 1\FirstSolution\AverageofTen\obj\Debug\net6.0\refint\AverageofTen.dll
+E:\Hexaware\Day 1\FirstSolution\AverageofTen\obj\Debug\net6.0\AverageofTen.pdb
+E:\Hexaware\Day 1\FirstSolution\AverageofTen\obj\Debug\net6.0\AverageofTen.genruntimeconfig.cache
+E:\Hexaware\Day 1\FirstSolution\AverageofTen\obj\Debug\net6.0\ref\AverageofTen.dll

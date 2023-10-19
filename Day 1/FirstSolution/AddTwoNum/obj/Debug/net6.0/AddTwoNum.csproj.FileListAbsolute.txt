@@ -1,0 +1,14 @@
+E:\Hexaware\Day 1\FirstSolution\AddTwoNum\bin\Debug\net6.0\AddTwoNum.exe
+E:\Hexaware\Day 1\FirstSolution\AddTwoNum\bin\Debug\net6.0\AddTwoNum.deps.json
+E:\Hexaware\Day 1\FirstSolution\AddTwoNum\bin\Debug\net6.0\AddTwoNum.runtimeconfig.json
+E:\Hexaware\Day 1\FirstSolution\AddTwoNum\bin\Debug\net6.0\AddTwoNum.dll
+E:\Hexaware\Day 1\FirstSolution\AddTwoNum\bin\Debug\net6.0\AddTwoNum.pdb
+E:\Hexaware\Day 1\FirstSolution\AddTwoNum\obj\Debug\net6.0\AddTwoNum.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hexaware\Day 1\FirstSolution\AddTwoNum\obj\Debug\net6.0\AddTwoNum.AssemblyInfoInputs.cache
+E:\Hexaware\Day 1\FirstSolution\AddTwoNum\obj\Debug\net6.0\AddTwoNum.AssemblyInfo.cs
+E:\Hexaware\Day 1\FirstSolution\AddTwoNum\obj\Debug\net6.0\AddTwoNum.csproj.CoreCompileInputs.cache
+E:\Hexaware\Day 1\FirstSolution\AddTwoNum\obj\Debug\net6.0\AddTwoNum.dll
+E:\Hexaware\Day 1\FirstSolution\AddTwoNum\obj\Debug\net6.0\refint\AddTwoNum.dll
+E:\Hexaware\Day 1\FirstSolution\AddTwoNum\obj\Debug\net6.0\AddTwoNum.pdb
+E:\Hexaware\Day 1\FirstSolution\AddTwoNum\obj\Debug\net6.0\AddTwoNum.genruntimeconfig.cache
+E:\Hexaware\Day 1\FirstSolution\AddTwoNum\obj\Debug\net6.0\ref\AddTwoNum.dll

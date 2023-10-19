@@ -1,0 +1,14 @@
+E:\Hexaware\Day 1\FirstSolution\primenumber\bin\Debug\net6.0\primenumber.exe
+E:\Hexaware\Day 1\FirstSolution\primenumber\bin\Debug\net6.0\primenumber.deps.json
+E:\Hexaware\Day 1\FirstSolution\primenumber\bin\Debug\net6.0\primenumber.runtimeconfig.json
+E:\Hexaware\Day 1\FirstSolution\primenumber\bin\Debug\net6.0\primenumber.dll
+E:\Hexaware\Day 1\FirstSolution\primenumber\bin\Debug\net6.0\primenumber.pdb
+E:\Hexaware\Day 1\FirstSolution\primenumber\obj\Debug\net6.0\primenumber.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hexaware\Day 1\FirstSolution\primenumber\obj\Debug\net6.0\primenumber.AssemblyInfoInputs.cache
+E:\Hexaware\Day 1\FirstSolution\primenumber\obj\Debug\net6.0\primenumber.AssemblyInfo.cs
+E:\Hexaware\Day 1\FirstSolution\primenumber\obj\Debug\net6.0\primenumber.csproj.CoreCompileInputs.cache
+E:\Hexaware\Day 1\FirstSolution\primenumber\obj\Debug\net6.0\primenumber.dll
+E:\Hexaware\Day 1\FirstSolution\primenumber\obj\Debug\net6.0\refint\primenumber.dll
+E:\Hexaware\Day 1\FirstSolution\primenumber\obj\Debug\net6.0\primenumber.pdb
+E:\Hexaware\Day 1\FirstSolution\primenumber\obj\Debug\net6.0\primenumber.genruntimeconfig.cache
+E:\Hexaware\Day 1\FirstSolution\primenumber\obj\Debug\net6.0\ref\primenumber.dll
