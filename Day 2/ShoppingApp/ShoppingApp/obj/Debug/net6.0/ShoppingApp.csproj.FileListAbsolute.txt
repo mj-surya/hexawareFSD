@@ -1,0 +1,14 @@
+E:\Hexaware\Day 2\ShoppingApp\ShoppingApp\bin\Debug\net6.0\ShoppingApp.exe
+E:\Hexaware\Day 2\ShoppingApp\ShoppingApp\bin\Debug\net6.0\ShoppingApp.deps.json
+E:\Hexaware\Day 2\ShoppingApp\ShoppingApp\bin\Debug\net6.0\ShoppingApp.runtimeconfig.json
+E:\Hexaware\Day 2\ShoppingApp\ShoppingApp\bin\Debug\net6.0\ShoppingApp.dll
+E:\Hexaware\Day 2\ShoppingApp\ShoppingApp\bin\Debug\net6.0\ShoppingApp.pdb
+E:\Hexaware\Day 2\ShoppingApp\ShoppingApp\obj\Debug\net6.0\ShoppingApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hexaware\Day 2\ShoppingApp\ShoppingApp\obj\Debug\net6.0\ShoppingApp.AssemblyInfoInputs.cache
+E:\Hexaware\Day 2\ShoppingApp\ShoppingApp\obj\Debug\net6.0\ShoppingApp.AssemblyInfo.cs
+E:\Hexaware\Day 2\ShoppingApp\ShoppingApp\obj\Debug\net6.0\ShoppingApp.csproj.CoreCompileInputs.cache
+E:\Hexaware\Day 2\ShoppingApp\ShoppingApp\obj\Debug\net6.0\ShoppingApp.dll
+E:\Hexaware\Day 2\ShoppingApp\ShoppingApp\obj\Debug\net6.0\refint\ShoppingApp.dll
+E:\Hexaware\Day 2\ShoppingApp\ShoppingApp\obj\Debug\net6.0\ShoppingApp.pdb
+E:\Hexaware\Day 2\ShoppingApp\ShoppingApp\obj\Debug\net6.0\ShoppingApp.genruntimeconfig.cache
+E:\Hexaware\Day 2\ShoppingApp\ShoppingApp\obj\Debug\net6.0\ref\ShoppingApp.dll

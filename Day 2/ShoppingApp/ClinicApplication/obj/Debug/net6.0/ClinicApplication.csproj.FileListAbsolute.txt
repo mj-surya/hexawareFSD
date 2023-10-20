@@ -1,0 +1,14 @@
+E:\Hexaware\Day 2\ShoppingApp\ClinicApplication\bin\Debug\net6.0\ClinicApplication.exe
+E:\Hexaware\Day 2\ShoppingApp\ClinicApplication\bin\Debug\net6.0\ClinicApplication.deps.json
+E:\Hexaware\Day 2\ShoppingApp\ClinicApplication\bin\Debug\net6.0\ClinicApplication.runtimeconfig.json
+E:\Hexaware\Day 2\ShoppingApp\ClinicApplication\bin\Debug\net6.0\ClinicApplication.dll
+E:\Hexaware\Day 2\ShoppingApp\ClinicApplication\bin\Debug\net6.0\ClinicApplication.pdb
+E:\Hexaware\Day 2\ShoppingApp\ClinicApplication\obj\Debug\net6.0\ClinicApplication.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hexaware\Day 2\ShoppingApp\ClinicApplication\obj\Debug\net6.0\ClinicApplication.AssemblyInfoInputs.cache
+E:\Hexaware\Day 2\ShoppingApp\ClinicApplication\obj\Debug\net6.0\ClinicApplication.AssemblyInfo.cs
+E:\Hexaware\Day 2\ShoppingApp\ClinicApplication\obj\Debug\net6.0\ClinicApplication.csproj.CoreCompileInputs.cache
+E:\Hexaware\Day 2\ShoppingApp\ClinicApplication\obj\Debug\net6.0\ClinicApplication.dll
+E:\Hexaware\Day 2\ShoppingApp\ClinicApplication\obj\Debug\net6.0\refint\ClinicApplication.dll
+E:\Hexaware\Day 2\ShoppingApp\ClinicApplication\obj\Debug\net6.0\ClinicApplication.pdb
+E:\Hexaware\Day 2\ShoppingApp\ClinicApplication\obj\Debug\net6.0\ClinicApplication.genruntimeconfig.cache
+E:\Hexaware\Day 2\ShoppingApp\ClinicApplication\obj\Debug\net6.0\ref\ClinicApplication.dll

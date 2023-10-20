@@ -10,8 +10,7 @@
                 int b= Convert.ToInt32(Console.ReadLine());
                 a+= b;
             }
-            double avg = a / 10;
-            Console.WriteLine("Average of 10 numbers is "+avg);
+            Console.WriteLine("Average of 10 numbers is "+a/10);
         }
         static void Main(string[] args)
         {
