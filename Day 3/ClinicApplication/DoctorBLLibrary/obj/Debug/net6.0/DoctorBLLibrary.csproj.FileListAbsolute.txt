@@ -1,0 +1,17 @@
+E:\Hexaware\Day 3\ClinicApplication\DoctorBLLibrary\obj\Debug\net6.0\DoctorBLLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hexaware\Day 3\ClinicApplication\DoctorBLLibrary\obj\Debug\net6.0\DoctorBLLibrary.AssemblyInfoInputs.cache
+E:\Hexaware\Day 3\ClinicApplication\DoctorBLLibrary\obj\Debug\net6.0\DoctorBLLibrary.AssemblyInfo.cs
+E:\Hexaware\Day 3\ClinicApplication\DoctorBLLibrary\obj\Debug\net6.0\DoctorBLLibrary.csproj.CoreCompileInputs.cache
+E:\Hexaware\Day 3\ClinicApplication\DoctorBLLibrary\obj\Debug\net6.0\DoctorBLLibrary.csproj.AssemblyReference.cache
+E:\Hexaware\Day 3\ClinicApplication\DoctorBLLibrary\bin\Debug\net6.0\DoctorBLLibrary.deps.json
+E:\Hexaware\Day 3\ClinicApplication\DoctorBLLibrary\bin\Debug\net6.0\DoctorBLLibrary.dll
+E:\Hexaware\Day 3\ClinicApplication\DoctorBLLibrary\bin\Debug\net6.0\DoctorBLLibrary.pdb
+E:\Hexaware\Day 3\ClinicApplication\DoctorBLLibrary\bin\Debug\net6.0\DoctorDALLibrary.dll
+E:\Hexaware\Day 3\ClinicApplication\DoctorBLLibrary\bin\Debug\net6.0\DoctorModelLibrary.dll
+E:\Hexaware\Day 3\ClinicApplication\DoctorBLLibrary\bin\Debug\net6.0\DoctorDALLibrary.pdb
+E:\Hexaware\Day 3\ClinicApplication\DoctorBLLibrary\bin\Debug\net6.0\DoctorModelLibrary.pdb
+E:\Hexaware\Day 3\ClinicApplication\DoctorBLLibrary\obj\Debug\net6.0\DoctorBLLibrary.csproj.CopyComplete
+E:\Hexaware\Day 3\ClinicApplication\DoctorBLLibrary\obj\Debug\net6.0\DoctorBLLibrary.dll
+E:\Hexaware\Day 3\ClinicApplication\DoctorBLLibrary\obj\Debug\net6.0\refint\DoctorBLLibrary.dll
+E:\Hexaware\Day 3\ClinicApplication\DoctorBLLibrary\obj\Debug\net6.0\DoctorBLLibrary.pdb
+E:\Hexaware\Day 3\ClinicApplication\DoctorBLLibrary\obj\Debug\net6.0\ref\DoctorBLLibrary.dll

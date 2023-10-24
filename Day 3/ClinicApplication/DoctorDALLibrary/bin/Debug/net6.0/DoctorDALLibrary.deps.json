@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DoctorDALLibrary/1.0.0": {
+        "dependencies": {
+          "DoctorModelLibrary": "1.0.0"
+        },
+        "runtime": {
+          "DoctorDALLibrary.dll": {}
+        }
+      },
+      "DoctorModelLibrary/1.0.0": {
+        "runtime": {
+          "DoctorModelLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DoctorDALLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DoctorModelLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+E:\Hexaware\Day 3\ClinicApplication\DoctorDALLibrary\bin\Debug\net6.0\DoctorDALLibrary.deps.json
+E:\Hexaware\Day 3\ClinicApplication\DoctorDALLibrary\bin\Debug\net6.0\DoctorDALLibrary.dll
+E:\Hexaware\Day 3\ClinicApplication\DoctorDALLibrary\bin\Debug\net6.0\DoctorDALLibrary.pdb
+E:\Hexaware\Day 3\ClinicApplication\DoctorDALLibrary\bin\Debug\net6.0\DoctorModelLibrary.dll
+E:\Hexaware\Day 3\ClinicApplication\DoctorDALLibrary\bin\Debug\net6.0\DoctorModelLibrary.pdb
+E:\Hexaware\Day 3\ClinicApplication\DoctorDALLibrary\obj\Debug\net6.0\DoctorDALLibrary.csproj.AssemblyReference.cache
+E:\Hexaware\Day 3\ClinicApplication\DoctorDALLibrary\obj\Debug\net6.0\DoctorDALLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hexaware\Day 3\ClinicApplication\DoctorDALLibrary\obj\Debug\net6.0\DoctorDALLibrary.AssemblyInfoInputs.cache
+E:\Hexaware\Day 3\ClinicApplication\DoctorDALLibrary\obj\Debug\net6.0\DoctorDALLibrary.AssemblyInfo.cs
+E:\Hexaware\Day 3\ClinicApplication\DoctorDALLibrary\obj\Debug\net6.0\DoctorDALLibrary.csproj.CoreCompileInputs.cache
+E:\Hexaware\Day 3\ClinicApplication\DoctorDALLibrary\obj\Debug\net6.0\DoctorDALLibrary.csproj.CopyComplete
+E:\Hexaware\Day 3\ClinicApplication\DoctorDALLibrary\obj\Debug\net6.0\DoctorDALLibrary.dll
+E:\Hexaware\Day 3\ClinicApplication\DoctorDALLibrary\obj\Debug\net6.0\refint\DoctorDALLibrary.dll
+E:\Hexaware\Day 3\ClinicApplication\DoctorDALLibrary\obj\Debug\net6.0\DoctorDALLibrary.pdb
+E:\Hexaware\Day 3\ClinicApplication\DoctorDALLibrary\obj\Debug\net6.0\ref\DoctorDALLibrary.dll

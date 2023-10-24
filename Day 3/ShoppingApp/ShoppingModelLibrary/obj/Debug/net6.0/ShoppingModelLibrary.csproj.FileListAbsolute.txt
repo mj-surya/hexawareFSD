@@ -1,0 +1,11 @@
+E:\Hexaware\Day 3\ShoppingApp\ShoppingModelLibrary\bin\Debug\net6.0\ShoppingModelLibrary.deps.json
+E:\Hexaware\Day 3\ShoppingApp\ShoppingModelLibrary\bin\Debug\net6.0\ShoppingModelLibrary.dll
+E:\Hexaware\Day 3\ShoppingApp\ShoppingModelLibrary\bin\Debug\net6.0\ShoppingModelLibrary.pdb
+E:\Hexaware\Day 3\ShoppingApp\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hexaware\Day 3\ShoppingApp\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.AssemblyInfoInputs.cache
+E:\Hexaware\Day 3\ShoppingApp\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.AssemblyInfo.cs
+E:\Hexaware\Day 3\ShoppingApp\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.csproj.CoreCompileInputs.cache
+E:\Hexaware\Day 3\ShoppingApp\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.dll
+E:\Hexaware\Day 3\ShoppingApp\ShoppingModelLibrary\obj\Debug\net6.0\refint\ShoppingModelLibrary.dll
+E:\Hexaware\Day 3\ShoppingApp\ShoppingModelLibrary\obj\Debug\net6.0\ShoppingModelLibrary.pdb
+E:\Hexaware\Day 3\ShoppingApp\ShoppingModelLibrary\obj\Debug\net6.0\ref\ShoppingModelLibrary.dll

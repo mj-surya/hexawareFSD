@@ -1,0 +1,11 @@
+E:\Hexaware\Day 3\ClinicApplication\DoctorModelLibrary\bin\Debug\net6.0\DoctorModelLibrary.deps.json
+E:\Hexaware\Day 3\ClinicApplication\DoctorModelLibrary\bin\Debug\net6.0\DoctorModelLibrary.dll
+E:\Hexaware\Day 3\ClinicApplication\DoctorModelLibrary\bin\Debug\net6.0\DoctorModelLibrary.pdb
+E:\Hexaware\Day 3\ClinicApplication\DoctorModelLibrary\obj\Debug\net6.0\DoctorModelLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hexaware\Day 3\ClinicApplication\DoctorModelLibrary\obj\Debug\net6.0\DoctorModelLibrary.AssemblyInfoInputs.cache
+E:\Hexaware\Day 3\ClinicApplication\DoctorModelLibrary\obj\Debug\net6.0\DoctorModelLibrary.AssemblyInfo.cs
+E:\Hexaware\Day 3\ClinicApplication\DoctorModelLibrary\obj\Debug\net6.0\DoctorModelLibrary.csproj.CoreCompileInputs.cache
+E:\Hexaware\Day 3\ClinicApplication\DoctorModelLibrary\obj\Debug\net6.0\DoctorModelLibrary.dll
+E:\Hexaware\Day 3\ClinicApplication\DoctorModelLibrary\obj\Debug\net6.0\refint\DoctorModelLibrary.dll
+E:\Hexaware\Day 3\ClinicApplication\DoctorModelLibrary\obj\Debug\net6.0\DoctorModelLibrary.pdb
+E:\Hexaware\Day 3\ClinicApplication\DoctorModelLibrary\obj\Debug\net6.0\ref\DoctorModelLibrary.dll

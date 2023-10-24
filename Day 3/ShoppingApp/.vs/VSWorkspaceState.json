@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ShoppingApplication",
+    "\\ShoppingApplication\\bin\\Debug",
+    "\\ShoppingApplication\\bin\\Debug\\net6.0",
+    "\\ShoppingApplication\\obj\\Debug\\net6.0",
+    "\\ShoppingApplication\\obj\\Release",
+    "\\ShoppingBLLibrary",
+    "\\ShoppingDALLibrary",
+    "\\ShoppingModelLibrary"
+  ],
+  "SelectedNode": "\\ShoppingDALLibrary",
+  "PreviewInSolutionExplorer": false
+}
