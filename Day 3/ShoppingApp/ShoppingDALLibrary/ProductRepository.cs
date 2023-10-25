@@ -2,7 +2,7 @@
 
 namespace ShoppingDALLibrary
 {
-    public class ProductRepository : IRepository
+    public class ProductRepository : IRepository<int, Product>
     {
         Dictionary<int, Product> products = new Dictionary<int, Product>();
         /// <summary>
@@ -37,7 +37,7 @@ namespace ShoppingDALLibrary
         }
 
         /// <summary>
-        /// Deletes the product from the dictionary using the id as key
+        /// Deletes the product from teh dictionary using the id as key
         /// </summary>
         /// <param name="id">The Id of the product to be deleted</param>
         /// <returns>The deleted product</returns>
@@ -56,7 +56,9 @@ namespace ShoppingDALLibrary
 
         public Product GetById(int id)
         {
-            return products[id];
+            if (products.ContainsKey(id))
+                return products[id];
+            return null;
         }
 
         public Product Update(Product product)
