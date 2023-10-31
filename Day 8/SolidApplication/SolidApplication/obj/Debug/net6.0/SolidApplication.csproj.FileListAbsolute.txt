@@ -1,0 +1,14 @@
+E:\Hexaware\Day 8\SolidApplication\SolidApplication\bin\Debug\net6.0\SolidApplication.exe
+E:\Hexaware\Day 8\SolidApplication\SolidApplication\bin\Debug\net6.0\SolidApplication.deps.json
+E:\Hexaware\Day 8\SolidApplication\SolidApplication\bin\Debug\net6.0\SolidApplication.runtimeconfig.json
+E:\Hexaware\Day 8\SolidApplication\SolidApplication\bin\Debug\net6.0\SolidApplication.dll
+E:\Hexaware\Day 8\SolidApplication\SolidApplication\bin\Debug\net6.0\SolidApplication.pdb
+E:\Hexaware\Day 8\SolidApplication\SolidApplication\obj\Debug\net6.0\SolidApplication.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hexaware\Day 8\SolidApplication\SolidApplication\obj\Debug\net6.0\SolidApplication.AssemblyInfoInputs.cache
+E:\Hexaware\Day 8\SolidApplication\SolidApplication\obj\Debug\net6.0\SolidApplication.AssemblyInfo.cs
+E:\Hexaware\Day 8\SolidApplication\SolidApplication\obj\Debug\net6.0\SolidApplication.csproj.CoreCompileInputs.cache
+E:\Hexaware\Day 8\SolidApplication\SolidApplication\obj\Debug\net6.0\SolidApplication.dll
+E:\Hexaware\Day 8\SolidApplication\SolidApplication\obj\Debug\net6.0\refint\SolidApplication.dll
+E:\Hexaware\Day 8\SolidApplication\SolidApplication\obj\Debug\net6.0\SolidApplication.pdb
+E:\Hexaware\Day 8\SolidApplication\SolidApplication\obj\Debug\net6.0\SolidApplication.genruntimeconfig.cache
+E:\Hexaware\Day 8\SolidApplication\SolidApplication\obj\Debug\net6.0\ref\SolidApplication.dll
