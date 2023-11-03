@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\Images\\Pencil.png"
     },
     {
+      "Id": "E:\\Hexaware\\Day 10\\FirstWebSolution\\FirstWebApplication\\wwwroot\\Images\\Sharpner.jpg",
+      "PackagePath": "staticwebassets\\Images\\Sharpner.jpg"
+    },
+    {
       "Id": "E:\\Hexaware\\Day 10\\FirstWebSolution\\FirstWebApplication\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gTxeFinIbWf8Ij7GkciWsFO+wrGfqQqVHeQxrp4KDf8=",
+  "Hash": "w3PKO0AgN9RE68vokglHMMtYIG5RfKzA/PL6JKzvzi4=",
   "Source": "FirstWebApplication",
   "BasePath": "_content/FirstWebApplication",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Pencil.png"
+    },
+    {
+      "Identity": "E:\\Hexaware\\Day 10\\FirstWebSolution\\FirstWebApplication\\wwwroot\\Images\\Sharpner.jpg",
+      "SourceId": "FirstWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Hexaware\\Day 10\\FirstWebSolution\\FirstWebApplication\\wwwroot\\",
+      "BasePath": "_content/FirstWebApplication",
+      "RelativePath": "Images/Sharpner.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Sharpner.jpg"
     },
     {
       "Identity": "E:\\Hexaware\\Day 10\\FirstWebSolution\\FirstWebApplication\\wwwroot\\js\\site.js",

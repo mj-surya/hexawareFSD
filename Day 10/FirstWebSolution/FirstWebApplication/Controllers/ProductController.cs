@@ -8,9 +8,9 @@ namespace FirstWebApplication.Controllers
     public class ProductController : Controller
     {
         IProductService _productService;
-        public ProductController()
+        public ProductController(IProductService productService)
         {
-            _productService = new ProductService();
+            _productService = productService;
         }
         //Product product = new Product
         //{

@@ -3,6 +3,7 @@ Hotel Booking Application Models
 User Model:
 	-Registeration
 	-Login
+	-UserDetails
 
 Hotel Model:
 	-DisplayHotels
