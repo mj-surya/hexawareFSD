@@ -1,0 +1,24 @@
+FSD:
+1) Create Models
+2) Create Contexts
+3) Connection Strings(in appsettings.json)
+4) Add Connection(in program.js)
+5) Interfaces (IRepository)
+6) Repositories(UserRepository, ProductRepository....)
+7) DTOs(UserDto,....)
+8) ServiceInterfaces(Interfaces - IUserService....)
+9) Services (UserService)
+10) UserViewModel (in DTOs)
+11) UserController(Controllers)
+12) Views(User-Register)
+
+
+
+
+
+
+
+Connection String:
+"ConnectionStrings": {
+  "shoppingCon": "Data source=MJSURYA\\DEMOINSTANCE;user id=sa;password=mj7surya;Initial catalog=dbShoppingApp"
+},
