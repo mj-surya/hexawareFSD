@@ -4,7 +4,7 @@ namespace ShoppingApp.Interfaces
 {
     public interface IUserService
     {
-        UserVewModel Login(UserVewModel userDTO);
-        UserVewModel Register(UserVewModel userDTO);
+        UserDTO Login(UserDTO userDTO);
+        UserDTO Register(UserDTO userDTO);
     }
 }

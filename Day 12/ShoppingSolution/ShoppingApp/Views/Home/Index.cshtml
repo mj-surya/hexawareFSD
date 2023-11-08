@@ -3,6 +3,12 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">My Shopping App</h1>
-    <p>Welcome to my Shopping Application.</p>
+    <h1 class="display-4">Shopping App</h1>
+    <p>Welcome to our store</p>
+    @if (TempData.ContainsKey("username"))
+    {
+        <div class="alert alert-success">
+            Welcome @TempData["username"]
+        </div>
+    }
 </div>

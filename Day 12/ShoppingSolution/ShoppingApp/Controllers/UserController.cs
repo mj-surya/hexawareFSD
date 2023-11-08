@@ -1,16 +1,14 @@
-﻿using Microsoft.AspNetCore.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ShoppingApp.Interfaces;
-using ShoppingApp.Models;
 using ShoppingApp.Models.DTOs;
-using System.ComponentModel.DataAnnotations;
 
 namespace ShoppingApp.Controllers
 {
-    
     public class UserController : Controller
     {
-        IUserService _userService;
+        private readonly IUserService _userService;
+
         public UserController(IUserService userService)
         {
             _userService = userService;
@@ -20,13 +18,27 @@ namespace ShoppingApp.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Register(UserVewModel viewmodel)
+        public IActionResult Register(UserViewModel viewModel)
         {
-            var result = _userService.Register(viewmodel);
-            if(result != null)
+            try
             {
-                return RedirectToAction("Index", "Home");
+                var user = _userService.Register(viewModel);
+                if (user != null)
+                {
+                    return RedirectToAction("Index", "Home");
+                }
             }
+            catch (DbUpdateException exp)
+            {
+                ViewBag.Message = "User name already exits";
+            }
+            catch (Exception)
+            {
+                ViewBag.Message = "Invalid data. Coudld not register";
+                throw;
+            }
+            //ViewData["Message"] = "Invalid data. Coudld not register";
+
             return View();
         }
         public IActionResult Login()
@@ -34,14 +46,15 @@ namespace ShoppingApp.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Login(UserVewModel viewmodel)
+        public IActionResult Login(UserDTO userDTO)
         {
-            var result = _userService.Login(viewmodel);
-            if(result != null)
+            var result = _userService.Login(userDTO);
+            if (result != null)
             {
+                TempData.Add("username", userDTO.Username);
                 return RedirectToAction("Index", "Home");
             }
-            ModelState.AddModelError(string.Empty, "The user name or password is incorrect");
+            ViewData["Message"] = "Invalid username or password";
             return View();
         }
     }
