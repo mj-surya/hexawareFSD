@@ -3,7 +3,7 @@ using ShoppingApp.Contexts;
 using ShoppingApp.Interfaces;
 using ShoppingApp.Models;
 
-namespace ShoppingApp.Reposittories
+namespace ShoppingApp.Repositories
 {
     public class CartRepository : IRepository<int, Cart>
     {
@@ -34,8 +34,6 @@ namespace ShoppingApp.Reposittories
         public IList<Cart> GetAll()
         {
 
-            if (_context.Carts.Count() == 0)
-                return null;
             return _context.Carts.ToList();
         }
 

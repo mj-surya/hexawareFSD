@@ -1,7 +1,7 @@
 ﻿using ShoppingApp.Interfaces;
 using ShoppingApp.Models;
 using ShoppingApp.Models.DTOs;
-using ShoppingApp.Reposittories;
+using ShoppingApp.Repositories;
 using System.Security.Cryptography;
 using System.Text;
 

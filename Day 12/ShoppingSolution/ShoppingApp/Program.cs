@@ -4,7 +4,7 @@ using Microsoft.IdentityModel.Tokens;
 using ShoppingApp.Contexts;
 using ShoppingApp.Interfaces;
 using ShoppingApp.Models;
-using ShoppingApp.Reposittories;
+using ShoppingApp.Repositories;
 using ShoppingApp.Services;
 using System.Text;
 
@@ -43,6 +43,7 @@ namespace ShoppingApp
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<ITokenService, TokenService>();
             builder.Services.AddScoped<IProductService, ProductService>();
+            builder.Services.AddScoped<ICartService, CartService>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

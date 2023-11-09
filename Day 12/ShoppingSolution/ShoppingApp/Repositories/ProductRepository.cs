@@ -3,7 +3,7 @@ using ShoppingApp.Contexts;
 using ShoppingApp.Interfaces;
 using ShoppingApp.Models;
 
-namespace ShoppingApp.Reposittories
+namespace ShoppingApp.Repositories
 {
     public class ProductRepository : IRepository<int, Product>
     {

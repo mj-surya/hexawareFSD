@@ -14,7 +14,7 @@ namespace ShoppingApp.Services
         }
         public Product Add(Product product)
         {
-            if (product.Price > 5)
+            if (product.Price > 0)
             {
                 var result = _productRepository.Add(product);
                 return result;
