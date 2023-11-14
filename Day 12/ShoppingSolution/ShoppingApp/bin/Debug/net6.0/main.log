@@ -1,0 +1,66 @@
+2023-11-14 10:11:52,890 [1] INFO Microsoft.Hosting.Lifetime.?[?] - Now listening on: http://localhost:5181
+2023-11-14 10:11:53,777 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Application started. Press Ctrl+C to shut down.
+2023-11-14 10:11:53,795 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Hosting environment: Development
+2023-11-14 10:11:53,800 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Content root path: E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\
+2023-11-14 10:12:07,837 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-14 10:12:10,113 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (115ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-11-14 10:12:10,297 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Picture], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+2023-11-14 10:12:10,422 [.NET ThreadPool Worker] INFO ShoppingApp.Controllers.ProductController.Get[29] - Product Listed
+2023-11-14 11:42:35,631 [1] INFO Microsoft.Hosting.Lifetime.?[?] - Now listening on: http://localhost:5181
+2023-11-14 11:42:35,753 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Application started. Press Ctrl+C to shut down.
+2023-11-14 11:42:35,762 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Hosting environment: Development
+2023-11-14 11:42:35,766 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Content root path: E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\
+2023-11-14 11:43:26,753 [1] INFO Microsoft.Hosting.Lifetime.?[?] - Now listening on: http://localhost:5181
+2023-11-14 11:43:26,832 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Application started. Press Ctrl+C to shut down.
+2023-11-14 11:43:26,838 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Hosting environment: Development
+2023-11-14 11:43:26,843 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Content root path: E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\
+2023-11-14 11:43:57,621 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-14 11:43:59,609 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (98ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-11-14 11:43:59,748 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Picture], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+2023-11-14 11:43:59,857 [.NET ThreadPool Worker] INFO ShoppingApp.Controllers.ProductController.Get[29] - Product Listed
+2023-11-14 11:48:52,914 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-14 11:48:53,306 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (282ms) [Parameters=[@__key_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[Username], [u].[Key], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__key_0
+2023-11-14 12:10:34,440 [1] INFO Microsoft.Hosting.Lifetime.?[?] - Now listening on: http://localhost:5181
+2023-11-14 12:10:34,551 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Application started. Press Ctrl+C to shut down.
+2023-11-14 12:10:34,557 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Hosting environment: Development
+2023-11-14 12:10:34,561 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Content root path: E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\
+2023-11-14 12:10:56,323 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-14 12:10:58,050 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (138ms) [Parameters=[@__key_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[Username], [u].[Key], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__key_0
+2023-11-14 12:13:03,254 [1] INFO Microsoft.Hosting.Lifetime.?[?] - Now listening on: http://localhost:5181
+2023-11-14 12:13:03,326 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Application started. Press Ctrl+C to shut down.
+2023-11-14 12:13:03,333 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Hosting environment: Development
+2023-11-14 12:13:03,336 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Content root path: E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\
+2023-11-14 12:14:15,122 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-14 12:14:16,223 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (136ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Single), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Name], [Picture], [Price], [Quantity])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Products]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-11-14 12:15:14,033 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-14 12:15:14,551 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-11-14 12:15:14,608 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Picture], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+2023-11-14 12:15:14,622 [.NET ThreadPool Worker] INFO ShoppingApp.Controllers.ProductController.Get[29] - Product Listed
+2023-11-14 12:20:46,174 [1] INFO Microsoft.Hosting.Lifetime.?[?] - Now listening on: http://localhost:5181
+2023-11-14 12:20:46,277 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Application started. Press Ctrl+C to shut down.
+2023-11-14 12:20:46,284 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Hosting environment: Development
+2023-11-14 12:20:46,287 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Content root path: E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\

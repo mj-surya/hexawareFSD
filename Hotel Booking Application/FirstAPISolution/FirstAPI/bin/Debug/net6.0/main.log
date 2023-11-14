@@ -1,0 +1,54 @@
+2023-11-14 15:18:39,544 [1] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'BookingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-14 15:20:28,961 [1] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'BookingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-14 15:20:31,620 [1] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (1,440ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [dbFirstAPI];
+2023-11-14 15:20:31,934 [1] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (308ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [dbFirstAPI] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-11-14 15:20:31,956 [1] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2023-11-14 15:20:32,077 [1] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-11-14 15:20:32,079 [1] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2023-11-14 15:20:32,106 [1] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-11-14 15:20:32,117 [1] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-11-14 15:20:32,141 [1] INFO Microsoft.EntityFrameworkCore.Migrations.?[?] - Applying migration '20231114094839_initial'.
+2023-11-14 15:20:32,205 [1] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Email] nvarchar(450) NOT NULL,
+    [Password] varbinary(max) NOT NULL,
+    [Name] nvarchar(max) NOT NULL,
+    [Phone] nvarchar(max) NOT NULL,
+    [Address] nvarchar(max) NOT NULL,
+    [Role] nvarchar(max) NOT NULL,
+    [Key] varbinary(max) NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Email])
+);
+2023-11-14 15:20:32,214 [1] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20231114094839_initial', N'6.0.24');
+2023-11-14 15:22:23,637 [1] INFO Microsoft.Hosting.Lifetime.?[?] - Now listening on: http://localhost:5240
+2023-11-14 15:22:23,778 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Application started. Press Ctrl+C to shut down.
+2023-11-14 15:22:23,786 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Hosting environment: Development
+2023-11-14 15:22:23,789 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Content root path: E:\Hexaware\Hotel Booking Application\FirstAPISolution\FirstAPI\
+2023-11-14 15:24:49,918 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'BookingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-14 15:24:51,789 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (168ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000), @p4='?' (Size = 8000) (DbType = Binary), @p5='?' (Size = 4000), @p6='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Address], [Key], [Name], [Password], [Phone], [Role])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2023-11-14 15:26:52,085 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'BookingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-14 15:26:53,010 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (338ms) [Parameters=[@__key_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[Email], [u].[Address], [u].[Key], [u].[Name], [u].[Password], [u].[Phone], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__key_0

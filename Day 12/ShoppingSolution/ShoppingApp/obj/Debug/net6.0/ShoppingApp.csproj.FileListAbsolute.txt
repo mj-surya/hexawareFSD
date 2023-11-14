@@ -248,3 +248,11 @@ E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\runtimes\win\li
 E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\log4net.config
+E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\log4net.dll
+E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.MvcApplicationPartsAssemblyInfo.cs
+E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
