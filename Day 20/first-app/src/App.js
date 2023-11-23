@@ -1,14 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-import Product from './Components/Product';
-import Second from './Components/Second';
+import AddProduct from './Components/AddProduct';
+import Products from './Components/Products';
 
 function App() {
   return (
-    <div className="App">
-     <Product />
-     <Second />
+    <div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <Products/>
     </div>
+    <div class="col">
+      <AddProduct/>
+    </div>
+  </div>
+</div>
   );
 }
 
