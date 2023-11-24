@@ -268,3 +268,721 @@ FROM [Products] AS [p]
 SELECT [p].[Id], [p].[Name], [p].[Picture], [p].[Price], [p].[Quantity]
 FROM [Products] AS [p]
 2023-11-23 14:22:58,891 [.NET ThreadPool Worker] INFO ShoppingApp.Controllers.ProductController.Get[31] - Product Listed
+2023-11-24 09:06:04,635 [1] INFO Microsoft.Hosting.Lifetime.?[?] - Now listening on: http://localhost:5181
+2023-11-24 09:06:04,857 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Application started. Press Ctrl+C to shut down.
+2023-11-24 09:06:04,866 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Hosting environment: Development
+2023-11-24 09:06:04,869 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Content root path: E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\
+2023-11-24 09:43:49,155 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 09:43:51,479 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (149ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-11-24 09:43:51,633 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Picture], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+2023-11-24 09:43:51,770 [.NET ThreadPool Worker] INFO ShoppingApp.Controllers.ProductController.Get[31] - Product Listed
+2023-11-24 09:43:51,849 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 09:43:51,861 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-11-24 09:43:51,870 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Picture], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+2023-11-24 09:43:51,875 [.NET ThreadPool Worker] INFO ShoppingApp.Controllers.ProductController.Get[31] - Product Listed
+2023-11-24 09:43:51,956 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 09:43:51,962 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2023-11-24 09:43:51,967 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Picture], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+2023-11-24 09:43:51,971 [.NET ThreadPool Worker] INFO ShoppingApp.Controllers.ProductController.Get[31] - Product Listed
+2023-11-24 10:03:29,204 [1] INFO Microsoft.Hosting.Lifetime.?[?] - Now listening on: http://localhost:5181
+2023-11-24 10:03:29,357 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Application started. Press Ctrl+C to shut down.
+2023-11-24 10:03:29,371 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Hosting environment: Development
+2023-11-24 10:03:29,381 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Content root path: E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\
+2023-11-24 10:25:55,246 [.NET ThreadPool Worker] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.?[?] - An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Unexpected end of request content.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1ContentLengthMessageBody.ReadAsyncInternal(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.ReadFromStreamAsync(Stream utf8Json, ReadBufferState bufferState, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.ReadAllAsync[TValue](Stream utf8Json, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-24 10:34:53,114 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 10:34:55,697 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (194ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 10:36:41,853 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 10:36:41,899 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (29ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 10:38:39,665 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 10:38:39,669 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 10:38:39,675 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 10:38:39,704 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Database.Command.?[?] - Failed executing DbCommand (13ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 10:38:39,746 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Update.?[?] - An exception occurred in the database while saving changes for context type 'ShoppingApp.Contexts.ShoppingContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (hai@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:29ffd34d-c6cc-44f7-bba7-1bc74246f118
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (hai@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:29ffd34d-c6cc-44f7-bba7-1bc74246f118
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-11-24 10:39:43,750 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 10:39:43,761 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 10:40:01,104 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 10:40:01,117 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 10:45:41,582 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 10:45:41,610 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 10:47:09,696 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 10:47:09,710 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 10:47:09,757 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 10:47:09,771 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Database.Command.?[?] - Failed executing DbCommand (3ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 10:47:09,796 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Update.?[?] - An exception occurred in the database while saving changes for context type 'ShoppingApp.Contexts.ShoppingContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (second2@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:d3a96850-0292-4b5f-ad9b-dfdf10229916
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (second2@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:d3a96850-0292-4b5f-ad9b-dfdf10229916
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-11-24 10:47:21,311 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 10:47:21,325 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Database.Command.?[?] - Failed executing DbCommand (2ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 10:47:21,353 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 10:47:21,353 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Update.?[?] - An exception occurred in the database while saving changes for context type 'ShoppingApp.Contexts.ShoppingContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (second2@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:d3a96850-0292-4b5f-ad9b-dfdf10229916
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (second2@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:d3a96850-0292-4b5f-ad9b-dfdf10229916
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-11-24 10:47:21,363 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Database.Command.?[?] - Failed executing DbCommand (1ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 10:47:21,454 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Update.?[?] - An exception occurred in the database while saving changes for context type 'ShoppingApp.Contexts.ShoppingContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (second2@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:d3a96850-0292-4b5f-ad9b-dfdf10229916
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (second2@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:d3a96850-0292-4b5f-ad9b-dfdf10229916
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-11-24 10:48:30,453 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 10:48:30,466 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 10:48:30,495 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 10:48:30,540 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Database.Command.?[?] - Failed executing DbCommand (1ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 10:48:30,551 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Update.?[?] - An exception occurred in the database while saving changes for context type 'ShoppingApp.Contexts.ShoppingContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (abcd@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:d3a96850-0292-4b5f-ad9b-dfdf10229916
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (abcd@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:d3a96850-0292-4b5f-ad9b-dfdf10229916
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-11-24 10:49:15,510 [1] INFO Microsoft.Hosting.Lifetime.?[?] - Now listening on: http://localhost:5181
+2023-11-24 10:49:15,777 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Application started. Press Ctrl+C to shut down.
+2023-11-24 10:49:15,786 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Hosting environment: Development
+2023-11-24 10:49:15,789 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Content root path: E:\Hexaware\Day 12\ShoppingSolution\ShoppingApp\
+2023-11-24 10:49:32,418 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 10:49:32,418 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 10:49:32,418 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 10:49:33,417 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Database.Command.?[?] - Failed executing DbCommand (102ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 10:49:33,435 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Database.Command.?[?] - Failed executing DbCommand (151ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 10:49:33,440 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Database.Command.?[?] - Failed executing DbCommand (157ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 10:49:33,492 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Update.?[?] - An exception occurred in the database while saving changes for context type 'ShoppingApp.Contexts.ShoppingContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (abcd@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:8af2ff25-df4f-4430-a2d0-9ee4f34dfc11
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (abcd@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:8af2ff25-df4f-4430-a2d0-9ee4f34dfc11
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-11-24 10:49:33,492 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Update.?[?] - An exception occurred in the database while saving changes for context type 'ShoppingApp.Contexts.ShoppingContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (abcd@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:d6e71e09-c7b2-4703-a4d6-efd935f64632
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (abcd@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:d6e71e09-c7b2-4703-a4d6-efd935f64632
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-11-24 10:49:33,492 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Update.?[?] - An exception occurred in the database while saving changes for context type 'ShoppingApp.Contexts.ShoppingContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (abcd@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:20c91649-2f72-4840-bf99-391cf0b3bdf1
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (abcd@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:20c91649-2f72-4840-bf99-391cf0b3bdf1
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-11-24 10:49:50,625 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 10:49:50,649 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 11:05:31,812 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 11:05:31,839 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 11:05:31,953 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (46ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 11:05:31,991 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Database.Command.?[?] - Failed executing DbCommand (86ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 11:05:32,015 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Update.?[?] - An exception occurred in the database while saving changes for context type 'ShoppingApp.Contexts.ShoppingContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (luckylad@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:91783532-64a8-417f-bde6-a7819935e78d
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (luckylad@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:91783532-64a8-417f-bde6-a7819935e78d
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-11-24 11:05:46,917 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 11:05:46,931 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Database.Command.?[?] - Failed executing DbCommand (5ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 11:05:46,950 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Update.?[?] - An exception occurred in the database while saving changes for context type 'ShoppingApp.Contexts.ShoppingContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (luckylad@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:91783532-64a8-417f-bde6-a7819935e78d
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (luckylad@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:91783532-64a8-417f-bde6-a7819935e78d
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-11-24 11:06:01,247 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 11:06:01,256 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 11:06:28,660 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 11:06:28,672 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 11:06:28,678 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 11:06:28,694 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Database.Command.?[?] - Failed executing DbCommand (3ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);
+2023-11-24 11:06:28,711 [.NET ThreadPool Worker] ERROR Microsoft.EntityFrameworkCore.Update.?[?] - An exception occurred in the database while saving changes for context type 'ShoppingApp.Contexts.ShoppingContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (lucky.lad10@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:91783532-64a8-417f-bde6-a7819935e78d
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (lucky.lad10@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:91783532-64a8-417f-bde6-a7819935e78d
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-11-24 11:06:55,170 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-24 11:06:55,179 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Username], [Key], [Password], [Role])
+VALUES (@p0, @p1, @p2, @p3);

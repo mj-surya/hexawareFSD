@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import AddProduct from './Components/AddProduct';
 import Products from './Components/Products';
+import RegisterUser from './Components/RegisterUser';
 
 function App() {
   return (
@@ -12,6 +13,11 @@ function App() {
     </div>
     <div class="col">
       <AddProduct/>
+    </div>
+  </div>
+  <div class="row" style={{'margin-top':30}}>
+    <div class="col-md-4">
+      <RegisterUser/>
     </div>
   </div>
 </div>
