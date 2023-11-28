@@ -38,7 +38,7 @@ namespace ShoppingApp.Controllers
             }
             return BadRequest(errorMessage);
         }
-        //[Authorize(Roles ="Admin")]
+        [Authorize(Roles ="Admin")]
         [HttpPost]
         public ActionResult Create(Product product)
         {

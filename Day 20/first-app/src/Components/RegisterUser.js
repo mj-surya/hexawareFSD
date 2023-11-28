@@ -30,14 +30,16 @@ function RegisterUser(){
             alert('please check yor data')
             return;
         }
-        var user={
-            "username":username,
-            "password":password,
-            "role":role
-        }
-        axios.post("http://localhost:5181/api/Customer/register",user)
-        .then((user)=>{
-            console.log(user)
+        
+        axios.post("http://localhost:5181/api/Customer/Login",{
+            username: username,
+            role:	role,
+            password:password
+    })
+        .then((userData)=>{
+            var token = userData.data.token;
+            localStorage.setItem("token",token);
+
         })
         .catch((err)=>{
             console.log(err)
